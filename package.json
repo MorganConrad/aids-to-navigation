@@ -1,0 +1,38 @@
+{
+  "name": "aids-to-navigation",
+  "version": "0.1.0",
+  "description": "Find USCG and CCG Aids to Navigation (Nautical)",
+  "main": "CLI.js",
+  "bin": "./CLI.js",
+  "type": "module",
+  "keywords": [
+    "Navigation",
+    "USCG",
+    "CCG"
+  ],
+  "scripts": {
+    "test": "c8 tape test/**.js",
+    "coverage": "c8 --reporter=html report",
+    "coveralls": "c8 --reporter=text-lcov report | coveralls"
+  },
+  "dependencies": {
+    "@rgrove/parse-xml": "^3.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "got": "^12.0.1"
+  },
+  "devDependencies": {
+    "tape": "^5.3",
+    "c8": "^7.10.0",
+    "coveralls": "^3.1.1"
+  },
+  "author": "Morgan Conrad <flyingspaniel@gmail.com> (http://flyingspaniel.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganConrad/aids-to-navigation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MorganConrad/aids-to-navigation/issues"
+  },
+  "homepage": "https://github.com/MorganConrad/aids-to-navigation#readme"
+}

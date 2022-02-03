@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "canadaTest": "data/CA_pac_p1.html",
+    "date": "2022-02-02T16:37:16.621Z"
+  },
+  "aids": [
+    {
+      "id": "CA_1",
+      "name": "Two Mile Point",
+      "type": "Fl",
+      "color": "R",
+      "period": "4s",
+      "positionDMS": {
+        "lat": "49 31 14.1N",
+        "lon": "117 15 41.8W"
+      },
+      "lat": 49.52058,
+      "lon": -117.26161,
+      "height": 9.4,
+      "range": 5,
+      "description": "On 3-pile dolphin, red and white triangular daymark."
+    },
+    {
+      "id": "CA_1.3",
+      "name": "Nelson East",
+      "type": "Fl",
+      "color": "G",
+      "period": "4s",
+      "positionDMS": {
+        "lat": "49 31 08.9N",
+        "lon": "117 16 08.2W"
+      },
+      "lat": 49.51914,
+      "lon": -117.26894,
+      "height": 11.7,
+      "range": 4,
+      "description": "White square skeleton tower with green band at top, on 3-pile dolphin."
+    }
+  ]
+}
