@@ -62,7 +62,7 @@ Parse the XML to get the data for the navigational aids
  - lat: latitude in degrees
  - lon: longitude in degrees
  - height: height _in meters_
- - range: nominal range _in kilometers_
+ - range: nominal range _in nautical miles_
  - description
  - remarks (US only)
 
@@ -91,8 +91,8 @@ Parse the XML to get the data for the navigational aids
 
 The data doesn't change often, so you needn't run this all that often.  On my 6 year old budget laptop it takes about 1 minute.
 
-`db/all.json` contains _all_ the navigational aids, as of 30 January 2022.
-One thing you might do is use [json-server](https://github.com/typicode/json-server) 
+`db/all.json` contains _all_ the navigational aids, as of 13 February 2022.
+One thing you might do is use [json-server](https://github.com/typicode/json-server)
 
  1. json-server --ro path/to/db/all.json
  2. then `http://localhost:3000/aids/?lat_lte=-0.1` brings up 18 navigational aids that are south of the Equator.

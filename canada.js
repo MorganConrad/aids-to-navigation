@@ -75,7 +75,7 @@ function parseAid(tds)
       lat: dmsToDecimal(positionDMS.lat),
       lon: dmsToDecimal(positionDMS.lon),
       height: Number(tds[7]) || 0,
-      range: Number(tds[8]) || 0,
+      range: Number(tds[8]) || 0,    // nautical miles
       description: tds[9] || ''
     }
   }

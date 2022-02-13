@@ -1,6 +1,6 @@
 {
   "name": "aids-to-navigation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find USCG and CCG Aids to Navigation (Nautical)",
   "main": "CLI.js",
   "bin": "./CLI.js",

@@ -80,8 +80,8 @@ function parseAidUS(el) {
     positionDMS,
     lat: dmsToDecimal(positionDMS.lat),
     lon: dmsToDecimal(positionDMS.lon),
-    height: +(raw.Height*0.3048).toFixed(1),  // meters
-    range : +(raw.Range*1.852).toFixed(1),    // km
+    height: +(raw.Height*0.3048).toFixed(1),  // convert feet to meters
+    range : +raw.Range,                       // nautical miles
     description: raw.Structure || '',
     remarks: raw.Remarks || ''
   }
